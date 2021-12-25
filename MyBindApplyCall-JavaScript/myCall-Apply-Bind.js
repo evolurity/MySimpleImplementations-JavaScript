@@ -27,13 +27,3 @@ function myApply(context, bindArgs) {
 Function.prototype.myBind = myBind
 Function.prototype.myCall = myCall
 Function.prototype.myApply = myApply
-
-
-function log(arg1, arg2, arg3) {
-    console.log(this.name, arg1, arg2, arg3)
-}
-
-const person = {name: 'vfdvdf'}
-
-
-log.myApply(person, [1, , 2])

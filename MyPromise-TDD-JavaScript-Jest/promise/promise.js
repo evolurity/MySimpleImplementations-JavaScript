@@ -43,5 +43,3 @@ class YanPromise {
         return this
     }
 }
-
-module.exports = YanPromise
