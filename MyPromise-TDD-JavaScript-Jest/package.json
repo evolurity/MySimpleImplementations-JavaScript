@@ -1,0 +1,15 @@
+{
+  "name": "Promise-TDD-JavaScript-Jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "promise/promise.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.4.5"
+  }
+}
